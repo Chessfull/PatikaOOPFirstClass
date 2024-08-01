@@ -33,7 +33,7 @@ namespace PatikaOOPFirstClass
 
         public void Greeting()
         {
-            Console.WriteLine($"Hi! My name is {_name} {_surName}.I born in {_birthDate}.  I am {status}. ");
+            Console.WriteLine($"Hi! My name is {_name} {_surName}. I born in {_birthDate.ToString("dd.MM.yyyy")}. I am {status}. ");
         }
     }
 }
