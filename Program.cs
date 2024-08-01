@@ -14,14 +14,14 @@ namespace PatikaOOPFirstClass
             Person person1 = new Person();
             person1.name = "Mert";
             person1.surName = "Topçu";
-            person1.birthDate = "17.01.1995";
+            person1.birthDate = new DateTime(1995, 1, 17);
             person1.status = "Student";
 
             // ▼ Instance and defining fields/properties of teacher sample ▼
             Person person2 = new Person();
             person2.name = "Sertan";
             person2.surName = "Bozkuş";
-            person2.birthDate = "01.01.1993";
+            person2.birthDate = new DateTime(1994, 1, 1);
             person2.status = "Teacher";
 
             // ▼ Getting their informations with method in Person class 'Person.cs' ▼

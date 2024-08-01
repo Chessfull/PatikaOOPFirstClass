@@ -10,7 +10,7 @@ namespace PatikaOOPFirstClass
     {
         private string _name;
         private string _surName;
-        private string _birthDate;
+        private DateTime _birthDate;
         public string status;
 
 
@@ -25,7 +25,7 @@ namespace PatikaOOPFirstClass
             get { return surName; }
             set { _surName = value; }
         }
-        public string birthDate
+        public DateTime birthDate
         {
             get { return birthDate; }
             set { _birthDate = value; }
